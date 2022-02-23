@@ -5,9 +5,136 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* background-color: #212121; */
+  background-color: black;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.parallax-container {
+  height: 600px;
+}
+html {
+  font-size: 62.5%;
+}
+.navbar-nav .nav-link{
+  font-size: 14px;
+}
+.page1{
+  background-color:transparent;
+  color:white;
+  padding: 110px 30px 0px 30px;
+}
+.page2{
+  background-color:transparent;
+  color:white;
+  font-size: 15px;
+  padding-top: 40px;
+}
+.linkbtn {
+background-color: transparent !important;
+}
+.page-footer{
+  background-color: transparent;
+}
+
+.white{
+background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #000000, rgb(17, 2, 34), #000000 );  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #000000, rgb(17, 2, 34), #000000 ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+/************container submenu***********/
+.submenu{
+  margin: auto;
+  padding: 100px 50px 50px 50px;
+  /* background-color: #212121; */
+  background-color: black;
+  color: #bdbdbd;
+}
+.cardfull{
+ width: 35rem;
+ color: black;
+ padding: 5px;
+ margin: auto;
+}
+.box1 {
+  width: 300px;
+  height: 300px;
+  border: 10px solid blue;
+  margin: 50px auto;
+
+  transform: translate(100px, 100px);
+}
+/***************Skills**************/
+.leafbox{
+  width:70px;
+  height:70px;
+  border: 2px solid #ef5350;
+  background-image: url("https://image.shutterstock.com/image-photo/raindrops-water-on-leaf-chili-260nw-1842598372.jpg");
+  background-position: center center;
+  background-size: cover;
+  border-radius: 0 50% 0 50%;
+  box-shadow: 5px 5px 16px inset rgb(173, 214, 26);
+  transform: skewY(20deg);
+  overflow-wrap: break-word;
+  margin: auto;
+}
+.leafbox1{
+  width:70px;
+  height:70px;
+  border: 2px solid #ef5350 ;
+  background-image: url("https://thumbs.dreamstime.com/b/water-drops-green-leaf-24053242.jpg");
+  background-position: center center;
+  background-size: cover;
+  border-radius: 50% 0 50% 0;
+  box-shadow: 5px 5px 16px inset #76ff03;
+  transform: skewY(-20deg);
+  overflow-wrap: break-word;
+  margin: auto;
+}
+.leafbox2{
+  width:70px;
+  height:70px;
+  border: 2px solid #ef5350 ;
+  background-image: url("https://images.unsplash.com/photo-1517634770028-b32708eb4442?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8dmVpbnxlbnwwfHwwfHw%3D&w=1000&q=80");
+  background-position: center center;
+  background-size: cover;
+  border-radius: 50% 0 50% 0;
+  box-shadow: 5px 5px 16px inset orangered;
+   transform: skewX(-20deg);
+   overflow-wrap: break-word;
+   margin: auto;
+}
+/*  https://thumbs.dreamstime.com/b/water-drops-green-leaf-24053242.jpg,https://i.pinimg.com/originals/6b/c3/52/6bc352c0dbd90168800f8a563e6efbfc.jpg*/
+.leafbox3{
+  width:70px;
+  height:70px;
+  border: 2px solid #ef5350 ;
+  background-image: url("https://www.texturepalace.com/gallery/nature/leafs/100930/2leaf_texture_big_100930.JPG");
+  background-position: center center;
+  background-size: cover;
+  border-radius: 0 50% 0 50%;
+  box-shadow: 5px 5px 16px inset #eeff41;
+   transform: skewX(20deg);
+   overflow-wrap: break-word;
+   margin: auto;
+}
+.leafboxmiddle1{
+  margin: auto ;
+}
+.leafboxmiddle2{
+  width:150px;
+  height: 0;
+  border-top: 150px solid #ff6d00;
+  border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+  /* background-color: #4e342e ; */
+  margin: auto;
+}
+.contact_btn{
+  background-color: #26c6da !important;
+}
+
